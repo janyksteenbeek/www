@@ -7,8 +7,8 @@ export default {
     ],
     theme: {
         fontFamily: {
-            'sans': ['"Lexend"', 'sans-serif'],
-            'clash': ['"Clash Grotesk"', 'sans-serif'],
+            'sans': ['Lexend', 'sans-serif'],
+            'archivo': ['Archivo', 'sans-serif'],
         },
         extend: {
             keyframes: {
