@@ -18,13 +18,12 @@ export function Home() {
                     <Header/>
                 </GlassCard>
 
-                <div className="grid lg:grid-cols-2 gap-4 opacity-0 animate-fade-in [animation-delay:_0.2s]">
+                <div className="grid lg:grid-cols-2 gap-4 opacity-0 animate-fade-in">
                     <div className="flex flex-col gap-4">
                         <GlassCard className="py-14 flex items-center justify-between px-6">
                             <Quote/>
                         </GlassCard>
-                        <GlassCard
-                            className="py-6 font-light px-6 text-sm">
+                        <GlassCard className="py-6 font-light px-6 text-sm">
                             <SocialLinks/>
                         </GlassCard>
                     </div>
