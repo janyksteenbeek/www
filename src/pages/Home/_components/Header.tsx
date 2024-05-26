@@ -6,10 +6,10 @@ export default function Header() {
     return (
         <header className="py-6 flex items-center justify-between px-6 gap-6">
             <div>
-                <h1 className="text-3xl lg:text-4xl font-bold animate-fade-in font-archivo">
+                <h1 className="font-archivo text-3xl lg:text-4xl font-bold animate-fade-in">
                     Janyk Steenbeek
                 </h1>
-                <p className="text-sm lg:text-lg mt-2 opacity-0 animate-fade-in lg:w-3/4">{age} year
+                <p className="text-sm lg:text-lg mt-2 animate-fade-in lg:w-3/4">{age} year
                     old
                     full-stack developer &amp; security engineer
                     from Groningen, NL</p>
