@@ -1,7 +1,6 @@
 export default function Header() {
-    const currentDate = new Date();
-    const age = (currentDate.getFullYear() - 1999) - (currentDate.getMonth() > 8 || (currentDate.getMonth() === 8 && currentDate.getDate() >= 15) ? 0 : 1);
-
+    const age: number = Math.floor((Date.now() - new Date('1999-01-17').getTime()) / 3.15576e+10);
+    
     return (
         <header className="py-6 flex items-center justify-between px-6 gap-6">
             <div>
